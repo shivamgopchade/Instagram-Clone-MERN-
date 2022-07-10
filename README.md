@@ -24,7 +24,7 @@ Users can<br/>
 <img src="https://github.com/shivamgopchade/Instagram-Clone-MERN-/blob/master/insta_ss/create_post1.jpg" height="50%" width="50%"><br/>
 <img src="https://github.com/shivamgopchade/Instagram-Clone-MERN-/blob/master/insta_ss/create_post2.jpg" height="50%" width="50%"><br/>
 <img src="https://github.com/shivamgopchade/Instagram-Clone-MERN-/blob/master/insta_ss/create_post3.jpg" height="50%" width="50%"><br/>
-<li>Post options<br/>
+<li>Update post<br/>
 <img src="https://github.com/shivamgopchade/Instagram-Clone-MERN-/blob/master/insta_ss/update.jpg" height="50%" width="50%"><br/>
 <br/><b>Profile Actions:<b/><br/>
 <li>See User Profiles<br/>
