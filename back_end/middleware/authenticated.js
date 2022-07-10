@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+require("dotenv").config();
 
 //authentication verifier
 function is_authenticated(req, res, next) {
@@ -6,7 +7,7 @@ function is_authenticated(req, res, next) {
   const token = req.cookies.jwt;
   //console.log(token);
   if (token) {
-    jwt.verify(token, "instagramclonebyshivam123@@$$", (err, decodedToken) => {
+    jwt.verify(token,process.env.DB_URI, (err, decodedToken) => {
       if (err) res.status(400).json({ error: "login again" });
       else {
         //console.log(decodedToken);
