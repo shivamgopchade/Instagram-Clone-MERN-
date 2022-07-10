@@ -15,8 +15,6 @@ app.use(express.urlencoded({ extended: false, limit: "50mb" }));
 app.use(express.json({ limit: "50mb" }));
 app.use(cookieParser());
 
-// db_uri =
-//   "mongodb+srv://shivamG:shivam_2306@cluster0.vuim5.mongodb.net/instagram?retryWrites=true&w=majority";
 db_uri = process.env.DB_URI;
 
 mongoose
