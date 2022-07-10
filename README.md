@@ -1,4 +1,4 @@
-# Instagram Clone (MERN stack)
+# Instagram Clone (MERN stack + redux toolkit)
 <center>
 This is a instagram clone for posting images(only) in public domain.<br/>
 Users can<br/>
